@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  justify-content: space-between;
+  background-color: cyan;
+  height: 80px;
+}
+
+nav ul {
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+
+nav ul li {
+  margin-left: 50px;
+  justify-content: space-between;
+  display: inline-block;
+}
+
+nav ul li a {
+  justify-content: space-between;
+  text-decoration: none;
+  font-family: sans-serif;
+  line-height: 80px;
+  color: black;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  color: red;
+  font-size: 18px;
+}
